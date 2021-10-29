@@ -9,7 +9,7 @@ require 'faker'
 
 10.times do 
     city = City.create(
-    name: Faker::Address.city
+    name: Faker::Nation.capital_city
     )
 end
     
